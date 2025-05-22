@@ -1,13 +1,173 @@
-<!DOCTYPE html>
-
 <html>
-    <header>
+<head>
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="cjss/bootstrap.min.css">
+  <link rel="stylesheet" href="cjss/design.css">
+  <meta charset="UTF-8">
+</head>
 
-    </header>
-    <body>
-        <h1>Hello World!</h1>
-        <p>I'm hosted with github pages!</p> 
-        <br><br><br>
-        <p><a href="page.html">Go to this page</a></p>
-    </body>
+<body>
+  <div class="header">
+    <div class="title">
+      <h1>ROCK - PAPER - SCISSORS</h1>
+    </div>
+    <div class="navigation">
+      <div class="tab">
+        <a href="#contacthome">
+          <h4>Home</h4>
+        </a>
+      </div>
+
+      <div class="tab">
+        <a href="#contacthist">
+          <h4>History</h4>
+        </a>
+      </div>
+
+      <div class="tab">
+        <a href="#contactplay">
+          <h2>PLAY</h2>
+        </a>
+      </div>
+
+      <div class="tab">
+        <a href="#contactapp">
+          <h4>Uses</h4>
+        </a>
+      </div>
+
+      <div class="tab">
+        <a href="#contactrules">
+          <h4>Rules</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="body">
+    <a id='contacthome'></a>
+    <h2 id='tar'>Contact</h2>
+    <div class="home">
+      <div class="head" id="home">
+        <h1 id="top">HOME</h1>
+      </div>
+
+      <div class="container">
+        <div class="one" id="pic">
+          <img src="images/banner.png" id="bod">
+        </div>
+
+        <div class="one" id="text">
+          <p>Rock, Paper, Scissors is a game for two players typically played using the players' hands. The two players each make a fist with one hand and hold the other open, palm upward. Together, they tap their fists in their open palms once, twice, and on the third time form one of three items: a rock (by keeping the hand in a fist), a sheet of paper (by holding the hand flat, palm down), or a pair of scissors (by extending the first two fingers and holding them apart).</p>
+        </div>
+      </div>
+    </div>
+
+    <a id='contacthist'></a>
+    <h2 id='tar'>Contact</h2>
+    <div class="hist">
+      <div class="head" id="hist">
+        <h1 id="top">History</h1>
+      </div>
+
+      <div class="container">
+        <div class="one" id="pic">
+          <img src="images/hist.jfif" id="bod">
+        </div>
+
+        <div class="one" id="text">
+          <p>The first known mention of the game was in the book Wuzazu by the Chinese Ming-dynasty writer Xie Zhaozhi, who wrote that the game dated back to the time of the Chinese Han dynasty (206 BC – 220 AD). In the book, the game was called shoushiling. Li Rihua's book Note of Liuyanzhai also mentions this game, calling it shoushiling, huozhitou, or huoquan.</p>
+        </div>
+      </div>
+    </div>
+
+    <a id='contactapp'></a>
+    <h2 id='tar'>Contact</h2>
+    <div class="uses">
+      <div class="head" id="app">
+        <h1 id="top">Uses</h1>
+      </div>
+
+      <div class="container">
+        <div class="one" id="pic">
+          <img src="images/app.jpg" id="bod">
+        </div>
+
+        <div class="one" id="text">
+          <p>There are a number of cases where the game is used to determine the winner of a situation where the case is a draw. Some examples are:</p>
+          <ul>
+            <li>In an american court case,</li>
+            <li>An auction house selection, </li>
+            <li>An FA Women's Super League match, </li>
+            <li>Choosing who goes first, </li>
+            <li>And many more</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <a id='contactrules'></a>
+    <h2 id='tar'>Contact</h2>
+    <div class="rules">
+      <div class="head" id="rules">
+        <h1 id="top">Rules</h1>
+      </div>
+
+      <div class="container">
+        <div class="one" id="pic">
+          <img src="images/rules.png" id="bod">
+        </div>
+
+        <div class="one" id="text">
+          <p>Although the game has a lot of complexity to it, the rules to play it are pretty simple.
+    The game is played where players deliver hand signals that will represent the elements of the game; rock, paper and scissors. The outcome of the game is determined by 3 simple rules:</p>
+
+          <ul>
+            <li>Rock wins against scissors.</li>
+            <li>Scissors win against paper.</li>
+            <li>Paper wins against rock.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <a id='contactplay'></a>
+    <h2 id='tar'>Contact</h2>
+    <div class="play" id="play">
+      <div class="scoring">
+        <div class="label" id="userLabel">user</div>
+        <div class="label" id="compLabel">comp</div>
+        <span id="userScore">0</span>:<span id="compScore">0</span>
+      </div>
+
+      <div class="result" id="result">
+        <p id="game">Welcome to Rock - Paper - Scissors</p>
+      </div>
+
+      <div class="choices">
+        <div class="choice"  id="r">
+          <img src="images/rock.png">
+        </div>
+
+        <div class="choice"  id="p">
+          <img src="images/paper.png">
+        </div>
+
+        <div class="choice"  id="s">
+          <img src="images/scissors.png">
+        </div>
+      </div>
+
+      <div class="quote">
+          <p>Make your move!</p>
+      </div>
+
+      <div>
+        <input type="button" value="Reset Score" id="reset">
+      </div>
+
+      <script type="text/javascript" src="cjss/game.js" charset="utf-8"></script>
+    </div>
+  </div>
+</body>
 </html>
